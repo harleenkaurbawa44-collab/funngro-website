@@ -1,0 +1,28 @@
+body { margin: 0; padding: 40px; background: #faf6ef; color: #29212c; font-family: Arial, sans-serif; }
+h1 { color: #68477e; }
+nav { margin-bottom: 35px; padding: 16px; background: #68477e; border-radius: 12px; }
+nav a { color: white; text-decoration: none; font-weight: bold; margin-right: 16px; }
+nav a:hover { text-decoration: underline; }
+
+body { line-height: 1.7; }
+h1 { font-size: 38px; margin-bottom: 12px; }
+p { font-size: 18px; max-width: 650px; }
+a { transition: opacity 0.2s ease; }
+a:hover { opacity: 0.8; }
+
+@media (max-width: 600px) {
+ body { padding: 20px; }
+ h1 { font-size: 30px; }
+ p { font-size: 16px; }
+ nav { padding: 12px; }
+ nav a { display: inline-block; margin: 5px 10px 5px 0; }
+}
+
+.hero { background: #eee5f5; padding: 35px 25px; border-radius: 20px; margin-top: 25px; }
+.hero h1 { color: #44205f; }
+.hero-link { display: inline-block; margin-top: 12px; margin-right: 8px; padding: 12px 18px; background: #68477e; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+
+.hero { display: block; }
+.hero h1 { line-height: 1.2; }
+.hero p { margin: 14px 0 20px; }
+.hero-link { margin-bottom: 8px; }
